@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".seviye3bulmaca2">
+
+    <Button
+        android:id="@+id/miraa"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="@+id/zamirr"
+        app:layout_constraintStart_toEndOf="@+id/zamirr"
+        app:layout_constraintTop_toTopOf="@+id/zamirr"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/mirai"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="@+id/zamirr"
+        app:layout_constraintEnd_toStartOf="@+id/zamirr"
+        app:layout_constraintTop_toTopOf="@+id/zamirr" />
+
+    <Button
+        android:id="@+id/zamirr"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmam"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/aforizmam"
+        app:layout_constraintTop_toBottomOf="@+id/zamiri" />
+
+    <Button
+        android:id="@+id/zamiri"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmam"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/aforizmam"
+        app:layout_constraintTop_toBottomOf="@+id/aforizmam" />
+
+    <Button
+        android:id="@+id/zamirz"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toTopOf="@+id/zamira"
+        app:layout_constraintEnd_toEndOf="@+id/zamira"
+        app:layout_constraintStart_toStartOf="@+id/zamira" />
+
+    <Button
+        android:id="@+id/zamira"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toTopOf="@+id/aforizmam"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmam"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/aforizmam" />
+
+    <Button
+        android:id="@+id/firmaf"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toTopOf="@+id/aforizmai"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmai"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/aforizmai" />
+
+    <Button
+        android:id="@+id/formam"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="52dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmao"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/aforizmao"
+        app:layout_constraintTop_toBottomOf="@+id/aforizmao" />
+
+    <Button
+        android:id="@+id/firmaa"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/firmam"
+        app:layout_constraintStart_toStartOf="@+id/firmam"
+        app:layout_constraintTop_toBottomOf="@+id/firmam" />
+
+    <Button
+        android:id="@+id/formaa"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="52dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmao"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/aforizmao"
+        app:layout_constraintTop_toBottomOf="@+id/formar" />
+
+    <Button
+        android:id="@+id/firmam"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/firmar"
+        app:layout_constraintStart_toStartOf="@+id/firmar"
+        app:layout_constraintTop_toBottomOf="@+id/firmar" />
+
+    <Button
+        android:id="@+id/firmar"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmai"
+        app:layout_constraintStart_toStartOf="@+id/aforizmai"
+        app:layout_constraintTop_toBottomOf="@+id/aforizmai" />
+
+    <Button
+        android:id="@+id/formar"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmao"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/aforizmao"
+        app:layout_constraintTop_toBottomOf="@+id/aforizmao" />
+
+    <Button
+        android:id="@+id/formaf"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toTopOf="@+id/aforizmao"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmao"
+        app:layout_constraintStart_toStartOf="@+id/aforizmao" />
+
+    <Button
+        android:id="@+id/maariff"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmaa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/aforizmaa"
+        app:layout_constraintTop_toBottomOf="@+id/maarifi" />
+
+    <Button
+        android:id="@+id/maarifi"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmaa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/aforizmaa"
+        app:layout_constraintTop_toBottomOf="@+id/maarifr" />
+
+    <Button
+        android:id="@+id/maarifr"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmaa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/aforizmaa"
+        app:layout_constraintTop_toBottomOf="@+id/aforizmaa" />
+
+    <Button
+        android:id="@+id/maarifa"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toTopOf="@+id/aforizmaa"
+        app:layout_constraintEnd_toEndOf="@+id/aforizmaa"
+        app:layout_constraintStart_toStartOf="@+id/aforizmaa" />
+
+    <Button
+        android:id="@+id/maarifm"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toTopOf="@+id/maarifa"
+        app:layout_constraintEnd_toEndOf="@+id/maarifa"
+        app:layout_constraintStart_toStartOf="@+id/maarifa" />
+
+    <Button
+        android:id="@+id/aforizmaa2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="@+id/aforizmaz"
+        app:layout_constraintStart_toEndOf="@+id/aforizmam"
+        app:layout_constraintTop_toTopOf="@+id/aforizmaz"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/aforizmaa"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="156dp"
+        android:background="#F5F5F5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/aforizmaf"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="@+id/aforizmaa"
+        app:layout_constraintStart_toEndOf="@+id/aforizmaa"
+        app:layout_constraintTop_toTopOf="@+id/aforizmaa" />
+
+    <Button
+        android:id="@+id/aforizmam"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="@+id/aforizmaz"
+        app:layout_constraintStart_toEndOf="@+id/aforizmaz"
+        app:layout_constraintTop_toTopOf="@+id/aforizmaz" />
+
+    <Button
+        android:id="@+id/aforizmao"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="@+id/aforizmaf"
+        app:layout_constraintStart_toEndOf="@+id/aforizmaf"
+        app:layout_constraintTop_toTopOf="@+id/aforizmaf" />
+
+    <Button
+        android:id="@+id/aforizmar"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="@+id/aforizmao"
+        app:layout_constraintStart_toEndOf="@+id/aforizmao"
+        app:layout_constraintTop_toTopOf="@+id/aforizmao"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/aforizmaz"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="@+id/aforizmai"
+        app:layout_constraintStart_toEndOf="@+id/aforizmai"
+        app:layout_constraintTop_toTopOf="@+id/aforizmai" />
+
+    <Button
+        android:id="@+id/aforizmai"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="@+id/aforizmar"
+        app:layout_constraintStart_toEndOf="@+id/aforizmar"
+        app:layout_constraintTop_toTopOf="@+id/aforizmar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEVİYE 3"
+        android:textSize="24sp"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BULMACA 2"
+        android:textSize="24sp"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/A2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="372dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisa2"
+        android:text="A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/O"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiso"
+        android:text="O"
+        app:layout_constraintBottom_toBottomOf="@+id/Z"
+        app:layout_constraintEnd_toStartOf="@+id/Z"
+        app:layout_constraintTop_toTopOf="@+id/Z" />
+
+    <Button
+        android:id="@+id/Z"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisz"
+        android:text="Z"
+        app:layout_constraintEnd_toStartOf="@+id/R"
+        app:layout_constraintTop_toBottomOf="@+id/R" />
+
+    <Button
+        android:id="@+id/R"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisr"
+        android:text="R"
+        app:layout_constraintEnd_toEndOf="@+id/F"
+        app:layout_constraintStart_toStartOf="@+id/F"
+        app:layout_constraintTop_toBottomOf="@+id/F" />
+
+    <Button
+        android:id="@+id/F"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisf"
+        android:text="F"
+        app:layout_constraintStart_toEndOf="@+id/A"
+        app:layout_constraintTop_toBottomOf="@+id/A" />
+
+    <Button
+        android:id="@+id/I"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisi"
+        android:text="İ"
+        app:layout_constraintEnd_toEndOf="@+id/M"
+        app:layout_constraintStart_toStartOf="@+id/M"
+        app:layout_constraintTop_toBottomOf="@+id/M" />
+
+    <Button
+        android:id="@+id/M"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegism"
+        android:text="M"
+        app:layout_constraintEnd_toStartOf="@+id/A2"
+        app:layout_constraintTop_toBottomOf="@+id/A2" />
+
+    <Button
+        android:id="@+id/A"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisa"
+        android:text="A"
+        app:layout_constraintBottom_toBottomOf="@+id/A2"
+        app:layout_constraintStart_toEndOf="@+id/A2"
+        app:layout_constraintTop_toTopOf="@+id/A2" />
+
+    <Button
+        android:id="@+id/onay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onaylandi"
+        android:text="@android:string/ok"
+        app:layout_constraintBottom_toBottomOf="@+id/devambutonu"
+        app:layout_constraintEnd_toStartOf="@+id/devambutonu"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/I" />
+
+    <Button
+        android:id="@+id/devambutonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="devamke"
+        android:text="devam et"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/R"
+        app:layout_constraintTop_toBottomOf="@+id/Z" />
+
+
+    <TextView
+        android:id="@+id/yourpuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:text="BEST:"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bestpuan"
+        android:layout_width="38dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="Puanınız:"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/bestkadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/bestpuan"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:onClick="karistir"
+        android:text="KARIŞTIR"
+        app:layout_constraintBottom_toBottomOf="@+id/devambutonu"
+        app:layout_constraintStart_toEndOf="@+id/devambutonu"
+        app:layout_constraintTop_toTopOf="@+id/devambutonu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".seviye3bulmaca1">
+
+    <Button
+        android:id="@+id/imdata"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/asitt"
+        app:layout_constraintEnd_toEndOf="@+id/asitt"
+        app:layout_constraintStart_toStartOf="@+id/asitt"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/imdatd"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/imdata"
+        app:layout_constraintEnd_toEndOf="@+id/asitt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/asitt"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/imdatm"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/imdatd"
+        app:layout_constraintEnd_toEndOf="@+id/asitt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/asitt"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/imdati"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/imdatm"
+        app:layout_constraintEnd_toEndOf="@+id/asitt"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/asitt"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/asitt"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/asits"
+        app:layout_constraintStart_toEndOf="@+id/asiti"
+        app:layout_constraintTop_toTopOf="@+id/asits"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/asiti"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/asits"
+        app:layout_constraintStart_toEndOf="@+id/asits"
+        app:layout_constraintTop_toTopOf="@+id/asits"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/asits"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/miata"
+        app:layout_constraintStart_toEndOf="@+id/miata"
+        app:layout_constraintTop_toTopOf="@+id/miata"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/sahs"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/idama"
+        app:layout_constraintEnd_toEndOf="@+id/idama"
+        app:layout_constraintStart_toStartOf="@+id/idama"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/ahih"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/miati"
+        app:layout_constraintEnd_toStartOf="@+id/miati"
+        app:layout_constraintStart_toEndOf="@+id/dahia"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/miatt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/idamm"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/idamm"
+        app:layout_constraintTop_toBottomOf="@+id/miata"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/miata"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/idamm"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/idamm"
+        app:layout_constraintTop_toBottomOf="@+id/miati"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/miati"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/idamm"
+        app:layout_constraintStart_toStartOf="@+id/idamm"
+        app:layout_constraintTop_toBottomOf="@+id/idamm"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/dahii"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/dahia"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dahia"
+        app:layout_constraintTop_toBottomOf="@+id/dahih"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/dahih"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/dahia"
+        app:layout_constraintStart_toStartOf="@+id/dahia"
+        app:layout_constraintTop_toBottomOf="@+id/dahia"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/dahia"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/idamd"
+        app:layout_constraintStart_toStartOf="@+id/idamd"
+        app:layout_constraintTop_toBottomOf="@+id/idamd"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/idama"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/idamd"
+        app:layout_constraintStart_toEndOf="@+id/idamd"
+        app:layout_constraintTop_toTopOf="@+id/idamd"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/idamm"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/idama"
+        app:layout_constraintStart_toEndOf="@+id/idama"
+        app:layout_constraintTop_toTopOf="@+id/idama"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/idamd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/idami"
+        app:layout_constraintStart_toEndOf="@+id/idami"
+        app:layout_constraintTop_toTopOf="@+id/idami"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/idami"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="76dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/D"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisd"
+        android:text="D"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/H"
+        app:layout_constraintStart_toStartOf="@+id/H"
+        app:layout_constraintTop_toBottomOf="@+id/H"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/i2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisi2"
+        android:text="İ"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/I"
+        app:layout_constraintStart_toStartOf="@+id/I"
+        app:layout_constraintTop_toBottomOf="@+id/I"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/H"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegish"
+        android:text="H"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/M"
+        app:layout_constraintTop_toBottomOf="@+id/M"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/I"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisi"
+        android:text="İ"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toStartOf="@+id/S"
+        app:layout_constraintTop_toBottomOf="@+id/S"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/T"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegist"
+        android:text="T"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/A"
+        app:layout_constraintEnd_toStartOf="@+id/A"
+        app:layout_constraintTop_toTopOf="@+id/A"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/M"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegism"
+        android:text="M"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/S"
+        app:layout_constraintStart_toEndOf="@+id/S"
+        app:layout_constraintTop_toTopOf="@+id/S"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/S"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="400dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:text="S"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/A"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisa"
+        android:text="A"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toStartOf="@+id/D"
+        app:layout_constraintTop_toBottomOf="@+id/D"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEVİYE 3"
+        android:textSize="24sp"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BULMACA 1"
+        android:textSize="24sp"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/onay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onaylandi"
+        android:text="@android:string/ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/I"
+        app:layout_constraintTop_toBottomOf="@+id/A"
+        app:layout_constraintVertical_bias="0.797" />
+
+    <Button
+        android:id="@+id/devambutonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:onClick="devamke"
+        android:text="DEVAM"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/onay"
+        app:layout_constraintEnd_toEndOf="@+id/H"
+        app:layout_constraintStart_toEndOf="@+id/onay"
+        app:layout_constraintTop_toTopOf="@+id/onay" />
+
+    <TextView
+        android:id="@+id/yourpuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:text="BEST:"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bestpuan"
+        android:layout_width="38dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="Puanınız:"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/bestkadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/bestpuan"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:onClick="karistir"
+        android:text="KARIŞTIR"
+        app:layout_constraintBottom_toBottomOf="@+id/devambutonu"
+        app:layout_constraintStart_toEndOf="@+id/devambutonu"
+        app:layout_constraintTop_toTopOf="@+id/devambutonu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

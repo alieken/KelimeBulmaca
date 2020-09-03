@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".seviye1bulmaca6">
+
+    <Button
+        android:id="@+id/sems"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/seme"
+        app:layout_constraintEnd_toEndOf="@+id/timm"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/timm"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/seme"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/timm"
+        app:layout_constraintEnd_toEndOf="@+id/timm"
+        app:layout_constraintStart_toStartOf="@+id/timm"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/timm"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/sitt"
+        app:layout_constraintStart_toEndOf="@+id/timi"
+        app:layout_constraintTop_toTopOf="@+id/sitt"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/timi"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/sitt"
+        app:layout_constraintStart_toEndOf="@+id/sitt"
+        app:layout_constraintTop_toTopOf="@+id/sitt"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/sitt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/miss"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/miss"
+        app:layout_constraintTop_toBottomOf="@+id/siti"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/siti"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/miss"
+        app:layout_constraintStart_toStartOf="@+id/miss"
+        app:layout_constraintTop_toBottomOf="@+id/miss"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/miss"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/simm"
+        app:layout_constraintStart_toEndOf="@+id/misi"
+        app:layout_constraintTop_toTopOf="@+id/simm"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/misi"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/simm"
+        app:layout_constraintStart_toEndOf="@+id/simm"
+        app:layout_constraintTop_toTopOf="@+id/simm"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/simm"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/siss2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/siss2"
+        app:layout_constraintTop_toBottomOf="@+id/simi"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/simi"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/siss2"
+        app:layout_constraintStart_toStartOf="@+id/siss2"
+        app:layout_constraintTop_toBottomOf="@+id/siss2"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/sett"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/siss"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/siss"
+        app:layout_constraintTop_toBottomOf="@+id/sete"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/sete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/siss"
+        app:layout_constraintStart_toStartOf="@+id/siss"
+        app:layout_constraintTop_toBottomOf="@+id/siss"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/siss2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/siss"
+        app:layout_constraintStart_toEndOf="@+id/sisi"
+        app:layout_constraintTop_toTopOf="@+id/siss"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/sisi"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/siss"
+        app:layout_constraintStart_toEndOf="@+id/siss"
+        app:layout_constraintTop_toTopOf="@+id/siss"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/siss"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/S2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss2"
+        android:text="S"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/M"
+        app:layout_constraintStart_toEndOf="@+id/E"
+        app:layout_constraintTop_toBottomOf="@+id/E"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/I"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisi"
+        android:text="İ"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toStartOf="@+id/S"
+        app:layout_constraintTop_toBottomOf="@+id/S"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/T"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegist"
+        android:text="T"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/I"
+        app:layout_constraintTop_toBottomOf="@+id/I"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/E"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegise"
+        android:text="E"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/S"
+        app:layout_constraintStart_toEndOf="@+id/S"
+        app:layout_constraintTop_toTopOf="@+id/S"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/S"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="436dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegiss"
+        android:text="S"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/M"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegism"
+        android:text="M"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/T"
+        app:layout_constraintStart_toEndOf="@+id/T"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEVİYE 1 "
+        android:textSize="24sp"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BULMACA 6"
+        android:textSize="24sp"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/onay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onaylandi"
+        android:text="@android:string/ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/I"
+        app:layout_constraintTop_toBottomOf="@+id/M" />
+
+    <Button
+        android:id="@+id/devambutonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:onClick="devamke"
+        android:text="DEVAM"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/onay"
+        app:layout_constraintEnd_toEndOf="@+id/S2"
+        app:layout_constraintStart_toEndOf="@+id/onay"
+        app:layout_constraintTop_toTopOf="@+id/onay" />
+
+    <TextView
+        android:id="@+id/yourpuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:text="BEST:"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bestpuan"
+        android:layout_width="38dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="Puanınız:"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/bestkadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/bestpuan"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:onClick="karistir"
+        android:text="KARIŞTIR"
+        app:layout_constraintBottom_toBottomOf="@+id/devambutonu"
+        app:layout_constraintStart_toEndOf="@+id/devambutonu"
+        app:layout_constraintTop_toTopOf="@+id/devambutonu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kelime">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".girissayfasi" />
+        <activity android:name=".bitis" />
+        <activity android:name=".seviye3bulmaca6" />
+        <activity android:name=".seviye3bulmaca5" />
+        <activity android:name=".seviye3bulmaca4" />
+        <activity android:name=".seviye3bulmaca3" />
+        <activity android:name=".seviye3bulmaca2" />
+        <activity android:name=".seviye2bulmaca6" />
+        <activity android:name=".seviye2bulmaca5" />
+        <activity android:name=".seviye2bulmaca4" />
+        <activity android:name=".seviye2bulmaca3" />
+        <activity android:name=".seviye2bulmaca2" />
+        <activity android:name=".seviye2bulmaca1" />
+        <activity android:name=".seviye3bulmaca1" />
+        <activity android:name=".seviye1bulmaca6" />
+        <activity android:name=".seviye1bulmaca5" />
+        <activity android:name=".seviye1bulmaca4" />
+        <activity android:name=".seviye1bulmaca3" />
+        <activity android:name=".seviye1bulmaca2" />
+        <activity android:name=".seviye1bulmaca1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

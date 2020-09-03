@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".seviye2bulmaca6">
+
+    <Button
+        android:id="@+id/araca2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toBottomOf="@+id/pacac"
+        app:layout_constraintEnd_toStartOf="@+id/pacac"
+        app:layout_constraintTop_toTopOf="@+id/pacac" />
+
+    <Button
+        android:id="@+id/pacac"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintEnd_toEndOf="@+id/pacaa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pacaa"
+        app:layout_constraintTop_toBottomOf="@+id/pacaa" />
+
+    <Button
+        android:id="@+id/pacaa"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintEnd_toEndOf="@+id/capap"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/capap"
+        app:layout_constraintTop_toBottomOf="@+id/capap" />
+
+    <Button
+        android:id="@+id/aracr"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toBottomOf="@+id/araca2"
+        app:layout_constraintEnd_toStartOf="@+id/araca2"
+        app:layout_constraintTop_toTopOf="@+id/araca2" />
+
+    <Button
+        android:id="@+id/araca"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toBottomOf="@+id/aracr"
+        app:layout_constraintEnd_toStartOf="@+id/aracr"
+        app:layout_constraintTop_toTopOf="@+id/aracr" />
+
+    <Button
+        android:id="@+id/arpar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toBottomOf="@+id/pacaa2"
+        app:layout_constraintStart_toEndOf="@+id/pacaa2"
+        app:layout_constraintTop_toTopOf="@+id/pacaa2" />
+
+    <Button
+        android:id="@+id/arpap"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toBottomOf="@+id/arpar"
+        app:layout_constraintStart_toEndOf="@+id/arpar"
+        app:layout_constraintTop_toTopOf="@+id/arpar" />
+
+    <Button
+        android:id="@+id/arpaa"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toBottomOf="@+id/arpap"
+        app:layout_constraintStart_toEndOf="@+id/arpap"
+        app:layout_constraintTop_toTopOf="@+id/arpap" />
+
+    <Button
+        android:id="@+id/parap"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toTopOf="@+id/paraa"
+        app:layout_constraintEnd_toEndOf="@+id/paraa"
+        app:layout_constraintStart_toStartOf="@+id/paraa" />
+
+    <Button
+        android:id="@+id/paraa"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toTopOf="@+id/parar"
+        app:layout_constraintEnd_toEndOf="@+id/parar"
+        app:layout_constraintStart_toStartOf="@+id/parar" />
+
+    <Button
+        android:id="@+id/parar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toTopOf="@+id/arpaa"
+        app:layout_constraintEnd_toEndOf="@+id/arpaa"
+        app:layout_constraintStart_toStartOf="@+id/arpaa" />
+
+    <Button
+        android:id="@+id/pacaa2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintEnd_toEndOf="@+id/pacac"
+        app:layout_constraintStart_toStartOf="@+id/pacac"
+        app:layout_constraintTop_toBottomOf="@+id/pacac" />
+
+    <Button
+        android:id="@+id/capap"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toBottomOf="@+id/capac"
+        app:layout_constraintStart_toEndOf="@+id/capaa"
+        app:layout_constraintTop_toTopOf="@+id/capac"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/capaa2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toBottomOf="@+id/capac"
+        app:layout_constraintStart_toEndOf="@+id/capap"
+        app:layout_constraintTop_toTopOf="@+id/capac"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/capaa"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintBottom_toBottomOf="@+id/capac"
+        app:layout_constraintStart_toEndOf="@+id/capac"
+        app:layout_constraintTop_toTopOf="@+id/capac" />
+
+    <Button
+        android:id="@+id/capac"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="96dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEVİYE 2"
+        android:textSize="24sp"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BULMACA 6"
+        android:textSize="24sp"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/C"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="416dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisc"
+        android:text="Ç"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/P"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisp"
+        android:text="P"
+        app:layout_constraintEnd_toStartOf="@+id/C"
+        app:layout_constraintTop_toBottomOf="@+id/C" />
+
+    <Button
+        android:id="@+id/R"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisr"
+        android:text="R"
+        app:layout_constraintEnd_toStartOf="@+id/A3"
+        app:layout_constraintStart_toEndOf="@+id/P"
+        app:layout_constraintTop_toBottomOf="@+id/P" />
+
+    <Button
+        android:id="@+id/A3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisa3"
+        android:text="A"
+        app:layout_constraintEnd_toStartOf="@+id/A2"
+        app:layout_constraintTop_toBottomOf="@+id/A2" />
+
+    <Button
+        android:id="@+id/A"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisa"
+        android:text="A"
+        app:layout_constraintBottom_toBottomOf="@+id/C"
+        app:layout_constraintStart_toEndOf="@+id/C"
+        app:layout_constraintTop_toTopOf="@+id/C" />
+
+    <Button
+        android:id="@+id/A2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#F5F5F5"
+        android:onClick="renkdegisa2"
+        android:text="A"
+        app:layout_constraintStart_toEndOf="@+id/A"
+        app:layout_constraintTop_toBottomOf="@+id/A" />
+
+    <Button
+        android:id="@+id/onay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:onClick="onaylandi"
+        android:text="@android:string/ok"
+        app:layout_constraintStart_toStartOf="@+id/P"
+        app:layout_constraintTop_toBottomOf="@+id/R" />
+
+    <Button
+        android:id="@+id/devambutonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="devamke"
+        android:text="devam et"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/onay"
+        app:layout_constraintEnd_toEndOf="@+id/A2"
+        app:layout_constraintStart_toEndOf="@+id/onay" />
+
+    <TextView
+        android:id="@+id/yourpuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:text="BEST:"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bestpuan"
+        android:layout_width="38dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="Puanınız:"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/bestkadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/bestpuan"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:onClick="karistir"
+        android:text="KARIŞTIR"
+        app:layout_constraintBottom_toBottomOf="@+id/devambutonu"
+        app:layout_constraintStart_toEndOf="@+id/devambutonu"
+        app:layout_constraintTop_toTopOf="@+id/devambutonu" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
